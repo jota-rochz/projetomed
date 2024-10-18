@@ -1,0 +1,75 @@
+/* Google Fonts */
+:root{
+    --default-font:"Roboto",sans-serif;
+/* fonte padrao */
+--heading-font: "Protest Strike", sans-serif;   /* titulos */
+--nav-font: "Roboto", sans-serif;     /* navegações / Menu */
+}
+
+:root {
+  --background-color: #ebebeb;
+  --nav-fundo: #dbdbdb;
+  --texto-default: #444;
+  --titulo-color: #363636; 
+  --nav-color: #444;
+  --nav-hover-color: #3fbbc0;
+  --nav-mobile-background: #ebebeb;
+  --nav-dropdown-background: #195052;
+  --nav-dropdown-color: #ebebeb;
+  --nav-dropdown-hover-color: #3fbbc0;
+  --nav-bg-topbar: #3fbbc0;
+  --nav-color2: #ebebeb;
+  --surface: #fff;
+  --accent-color: #3fbbc0;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--texto-default);
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Header */
+
+.header {
+    color: var(--texto-default);
+    background: var(--nav-bg-topbar);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    /* z-index: 997 */
+}
+
+.header .topbar {
+    background: var(--nav-bg-topbar);
+    color: var(--nav-color2);
+    height: 40px;
+}
+
+.header .brading {
+    min-width: 60px;
+    padding: 10px 0;
+}
+
+.header .logo {
+    line-height: 1;
+}
+
+.header .logo img {
+    max-height: 36px;
+    margin-right: 8px;
+}
+
+.header .cta-btn
+.header .cta-btn:focus {
+    color: #363636;
+    background: #3fbbc0;
+    font-size: 14px;
+    padding: 8px 20px;
+    margin: 0 5px 0 30px;
+    border-radius: 4px;
+}
+
+/* Nav menu Desktop = Responsivo */
